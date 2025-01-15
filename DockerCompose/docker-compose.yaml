@@ -1,0 +1,14 @@
+services:
+  emqx:
+    image: "emqx:latest"
+    ports:
+      - "1883:1883"
+      - "18083:18083"
+  publisher:
+    build: ./tcp-pub
+    working_dir: /
+    ports:
+      - "7:7" # port extern:port intern (wsl:container)
+  subscriber:
+    build: ./subscriber
+    working_dir: /
