@@ -1,0 +1,10 @@
+../Core/Src/main.c:90:5:main	8	static
+../Core/Src/main.c:177:6:SystemClock_Config	96	static
+../Core/Src/main.c:219:13:MX_TIM6_Init	24	static
+../Core/Src/main.c:255:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:288:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:339:6:StartDefaultTask	16	static
+../Core/Src/main.c:357:6:ReadTask02	16	static
+../Core/Src/main.c:376:6:MovementTask03	16	static
+../Core/Src/main.c:401:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:433:6:Error_Handler	4	static,ignoring_inline_asm
